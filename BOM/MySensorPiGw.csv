@@ -1,0 +1,6 @@
+Parts;Qty;"Don't Put Opt";Value;Package;Description;MPN
+D1;1;;Red LED;0805;LED;
+D2, D3;2;;Green LED;0805;LED;
+R1, R2, R3;3;;1k;0805;Resistor;
+U1;1;;RFM69HW;RFM69HW;Hoperf radio;
+U2;1;X;NRF24L01;NRF24L01;2.4ghz radio;
