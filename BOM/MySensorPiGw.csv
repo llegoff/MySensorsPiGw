@@ -1,6 +1,7 @@
 Parts;Qty;"Don't Put Opt";Value;Package;Description;MPN
-D1;1;;Red LED;0805;LED;
-D2, D3;2;;Green LED;0805;LED;
+D1;1;;Red LED;0805;LED err;
+D2;2;;Yellow LED;0805;LED rx;
+D3;2;;Green LED;0805;LED tx;
 R1, R2, R3;3;;1k;0805;Resistor;
 C1, C3;2;;10u;0805;capacitor;
 C2, C4;2;;100n;0805;capacitor;
