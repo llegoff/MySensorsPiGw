@@ -14,6 +14,8 @@ v1
 
 v2
 - change width of antenna track
+- add 3.3v regulator
+- add C1, C2, C3, C4
 
 v3 
 - add second NRF24L01 on SPI1
