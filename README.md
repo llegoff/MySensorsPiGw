@@ -88,7 +88,7 @@ in config.txt add
     
     dtparam=spi=on
     //change spi1 cs0 to gpio16 pin 36
-    dtoverlay=spi1-1cs,cs0_pin=36  
+    dtoverlay=spi1-1cs,cs0_pin=16  
 
 copy the source
 
