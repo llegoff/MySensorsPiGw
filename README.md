@@ -19,6 +19,7 @@ v3
 - add second NRF24L01 on SPI1
 - add capacitor C5 C6
 - add status leds D4 D5 D6
+- change J3 position
 
 Schema
 -------
