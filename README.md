@@ -93,15 +93,9 @@ copy the source
     cp -r MySensors MySensorsSecond
     cd MySensorsSecond
 
-edit file Makefile : change the line
+edit file Makefile : replace the string *mysgw* by *mysgwSecond*
 
-    GATEWAY_BIN=mysgw
-    
-by
-
-    GATEWAY_BIN=mysgwSecond
-    
-and replace mysgw. by mysgwSecond.
+rename file 'example_linux/mysgw.cpp' by 'mysgwSecond.cpp'
 
 configure the second instance 
 
