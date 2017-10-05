@@ -81,9 +81,9 @@ NRF24L01 on SPI1
 
 It's experimental, see https://forum.mysensors.org/topic/7702/double-spi-radio-raspberry-pi
 
-in config.txt add 
+in /boot/config.txt add 
 
-    //*** for pi3 & pi zero W
+    //*** uncomment for pi3 & pi zero W ***
     //dtoverlay=pi3-disable-bt
     
     dtparam=spi=on
