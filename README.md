@@ -93,6 +93,16 @@ copy the source
     cp -r MySensors MySensorsSecond
     cd MySensorsSecond
 
+edit file Makefile : change the line
+
+    GATEWAY_BIN=mysgw
+    
+by
+
+    GATEWAY_BIN=mysgwSecond
+    
+and replace mysgw. by mysgwSecond.
+
 configure the second instance 
 
     ./configure --my-transport=nrf24 --my-rf24-irq-pin=33 --my-rf24-ce-pin=37 --my-rf24-cs-pin=36 --spi-spidev-device=/dev/spidev1.0 --spi-driver=SPIDEV --my-port=5004 --my-leds-err-pin=29 --my-leds-rx-pin=31 --my-leds-tx-pin=32
@@ -100,6 +110,8 @@ configure the second instance
     
 running
 
-    sudo ./bin/mysgw -d
+    sudo ./bin/mysgwSecond -d
     
-before installation the bin name or the install script must be modified
+install
+
+    sudo make install
