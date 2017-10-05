@@ -83,8 +83,12 @@ It's experimental, see https://forum.mysensors.org/topic/7702/double-spi-radio-r
 
 in config.txt add 
 
+    //*** for pi3 & pi zero W
+    //dtoverlay=pi3-disable-bt
+    
     dtparam=spi=on
-    dtoverlay=spi1-1cs,cs0_pin=36
+    //change spi1 cs0 to gpio16 pin 36
+    dtoverlay=spi1-1cs,cs0_pin=36  
 
 copy the source
 
