@@ -48,9 +48,7 @@ configure (Ethernet gateway)
     
 running
 
-    cd bin 
-    sudo ./mysgw -d
-    cd ..
+    sudo ./bin/mysgw -d
     
 install
 
@@ -70,9 +68,7 @@ configure (Ethernet gateway)
 
 running
 
-    cd bin 
-    sudo ./mysgw -d
-    cd ..
+    sudo ./bin/mysgw -d
 
 install
 
@@ -104,8 +100,6 @@ configure the second instance
     
 running
 
-    cd bin 
-    sudo ./mysgw -d
-    cd ..
+    sudo ./bin/mysgw -d
     
 before installation the bin name or the install script must be modified
