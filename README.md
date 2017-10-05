@@ -81,7 +81,7 @@ It's experimental, see https://forum.mysensors.org/topic/7702/double-spi-radio-r
 
 in /boot/config.txt add 
 
-    //*** uncomment for pi3 & pi zero W ***
+    //*** uncomment for pi3 ***
     //dtoverlay=pi3-disable-bt
     
     dtparam=spi=on
