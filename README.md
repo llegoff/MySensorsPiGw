@@ -93,7 +93,7 @@ copy the source
     cp -r MySensors MySensorsSecond
     cd MySensorsSecond
 
-edit file Makefile : replace the string `mysgw` by `mysgwSecond`
+edit file `Makefile` : replace the string `mysgw` by `mysgwSecond`
 
 rename file `example_linux/mysgw.cpp` by `mysgwSecond.cpp`
 
