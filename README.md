@@ -7,6 +7,19 @@ https://www.mysensors.org/build/raspberry
 
 ![](IMG/wire_GW.PNG)
 
+revision:
+
+v1
+- bad width of antenna track
+
+v2
+- change width of antenna track
+
+v3 
+- add second NRF24L01 on SPI1
+- add capacitor C5 C6
+- add status leds D4 D5 D6
+
 Schema
 -------
 ![sch](IMG/SCH.PNG)
@@ -21,6 +34,9 @@ RFM69HW
 RFM69HW is connected to SPI0
 
 Download dev branch
+
+    git clone https://github.com/mysensors/MySensors.git --branch development
+    cd MySensors
 
 configure (Ethernet gateway)
 
@@ -40,6 +56,9 @@ install
 NRF24L01 on SPI0
 ----------------
 Download master branch
+
+    git clone https://github.com/mysensors/MySensors.git --branch master
+    cd MySensors
 
 configure (Ethernet gateway)
 
