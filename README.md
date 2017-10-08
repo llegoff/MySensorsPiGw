@@ -93,9 +93,11 @@ copy the source
     cp -r MySensors MySensorsSecond
     cd MySensorsSecond
 
-edit file `Makefile` : replace the string `mysgw` by `mysgwSecond`
+edit file `Makefile` : replace the string `mysgw` by `mysgwSecond` (in nano use Ctrl + \ )
 
-rename file `example_linux/mysgw.cpp` by `mysgwSecond.cpp`
+copy file mysgw.cpp to mysgwSecond.cpp 
+
+    cp examples_linux/mysgw.cpp examples_linux/mysgwSecond.cpp
 
 configure the second instance 
 
