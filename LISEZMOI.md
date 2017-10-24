@@ -43,7 +43,7 @@ Télécharger la branch de developpement
     git clone https://github.com/mysensors/MySensors.git --branch development
     cd MySensors
 
-configure (passerelle Ethernet)
+configurer (passerelle Ethernet)
 
     ./configure --my-transport=rfm69 --my-rfm69-frequency=868 --my-is-rfm69hw --my-port=5003 --my-leds-err-pin=12 --my-leds-rx-pin=16 --my-leds-tx-pin=18
     make
@@ -63,7 +63,7 @@ Télécharger la branche principale
     git clone https://github.com/mysensors/MySensors.git --branch master
     cd MySensors
 
-configure (passerelle Ethernet)
+configurer (passerelle Ethernet)
 
     ./configure --my-transport=nrf24 --my-rf24-irq-pin=15 --my-port=5003 --my-leds-err-pin=12 --my-leds-rx-pin=16 --my-leds-tx-pin=18
     make
