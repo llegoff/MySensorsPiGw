@@ -97,6 +97,13 @@ copy the source
 
 edit file `Makefile` : replace the string `mysgw` by `mysgwSecond` (in nano use Ctrl + \ )
 
+copy file `initscripts/mysgw.systemd` and `initscripts/mysgwSecond.sysvinit` to `initscripts/mysgwSecond.systemd` and `initscripts/mysgwSecond.sysvinit` 
+    
+    cp initscripts/mysgw.systemd initscripts/mysgwSecond.systemd
+    cp initscripts/mysgwSecond.sysvinit initscripts/mysgwSecond.sysvinit
+    
+edit file `initscripts/mysgwSecond.systemd` and `initscripts/mysgwSecond.sysvinit` : replace the string `mysgw` by `mysgwSecond` (in nano use Ctrl + \ ) and replace the string `MySensors Gateway` by `MySensors Gateway 2`
+
 copy file mysgw.cpp to mysgwSecond.cpp 
 
     cp examples_linux/mysgw.cpp examples_linux/mysgwSecond.cpp
@@ -111,12 +118,5 @@ running
     sudo ./bin/mysgwSecond -d
 
 install
-
-copy file `initscripts/mysgw.systemd` and `initscripts/mysgwSecond.sysvinit` to `initscripts/mysgwSecond.systemd` and `initscripts/mysgwSecond.sysvinit` 
-    
-    cp initscripts/mysgw.systemd initscripts/mysgwSecond.systemd
-    cp initscripts/mysgwSecond.sysvinit initscripts/mysgwSecond.sysvinit
-    
-edit file `initscripts/mysgwSecond.systemd` and `initscripts/mysgwSecond.sysvinit` : replace the string `mysgw` by `mysgwSecond` (in nano use Ctrl + \ ) and replace the string `MySensors Gateway` by `MySensors Gateway 2`
 
     sudo make install
