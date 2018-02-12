@@ -109,7 +109,14 @@ configure the second instance
 running
 
     sudo ./bin/mysgwSecond -d
+
+copy file 'initscripts/mysgw.systemd' and 'initscripts/mysgwSecond.sysvinit' to 'initscripts/mysgwSecond.systemd' and 'initscripts/mysgwSecond.sysvinit' 
     
+    cp initscripts/mysgw.systemd initscripts/mysgwSecond.systemd
+    cp initscripts/mysgwSecond.sysvinit initscripts/mysgwSecond.sysvinit
+    
+edit file 'initscripts/mysgwSecond.systemd' and 'initscripts/mysgwSecond.sysvinit' : replace the string `mysgw` by `mysgwSecond` (in nano use Ctrl + \ ) and replace the string 'MySensors Gateway' by 'MySensors Gateway 2'
+
 install
 
     sudo make install
