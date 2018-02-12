@@ -97,7 +97,14 @@ copier le répertoire source
 
 editer le fichier `Makefile` : remplacer la chaine de caractères `mysgw` par `mysgwSecond` (avec nano utiliser Ctrl + \ )
 
-coper  le fichier mysgw.cpp en mysgwSecond.cpp 
+copier les fichiers `initscripts/mysgw.systemd` et `initscripts/mysgwSecond.sysvinit` en `initscripts/mysgwSecond.systemd` et `initscripts/mysgwSecond.sysvinit` 
+    
+    cp initscripts/mysgw.systemd initscripts/mysgwSecond.systemd
+    cp initscripts/mysgwSecond.sysvinit initscripts/mysgwSecond.sysvinit
+    
+editer les fichiers `initscripts/mysgwSecond.systemd` et `initscripts/mysgwSecond.sysvinit` : remplacer la chaine de caractères `mysgw` par `mysgwSecond` (avec nano utiliser Ctrl + \ ) et remplacer la chaine de caractères `MySensors Gateway` par `MySensors Gateway 2`
+
+copier  le fichier mysgw.cpp en mysgwSecond.cpp 
 
     cp examples_linux/mysgw.cpp examples_linux/mysgwSecond.cpp
 
