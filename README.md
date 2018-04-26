@@ -50,7 +50,7 @@ configure (Ethernet gateway)
     
 running
 
-    sudo ./bin/mysgw -d
+    sudo ./bin/mysgw
     
 install
 
