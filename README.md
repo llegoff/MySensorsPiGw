@@ -90,6 +90,10 @@ in /boot/config.txt add
     //change spi1 cs0 to gpio16 pin 36
     dtoverlay=spi1-1cs,cs0_pin=16  
 
+reboot the PI
+
+    sudo reboot
+
 copy the source
 
     cp -r MySensors MySensorsSecond
