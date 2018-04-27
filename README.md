@@ -70,7 +70,7 @@ configure (Ethernet gateway)
 
 running
 
-    sudo ./bin/mysgw -d
+    sudo ./bin/mysgw
 
 install
 
@@ -119,7 +119,7 @@ configure the second instance
     
 running
 
-    sudo ./bin/mysgwSecond -d
+    sudo ./bin/mysgwSecond
 
 install
 
