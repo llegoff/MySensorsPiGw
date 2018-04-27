@@ -50,7 +50,7 @@ configurer (passerelle Ethernet)
     
 execution
 
-    sudo ./bin/mysgw -d
+    sudo ./bin/mysgw
     
 installation
 
@@ -70,7 +70,7 @@ configurer (passerelle Ethernet)
 
 execution
 
-    sudo ./bin/mysgw -d
+    sudo ./bin/mysgw
 
 installation
 
@@ -89,7 +89,10 @@ dans le fichier /boot/config.txt ajouter
     dtparam=spi=on
     //change spi1 cs0 to gpio16 pin 36
     dtoverlay=spi1-1cs,cs0_pin=16  
+Rebooter le raspberry pi
 
+    sudo reboot
+   
 copier le répertoire source
 
     cp -r MySensors MySensorsSecond
@@ -115,7 +118,7 @@ configurer la seconde instance
     
 execution
 
-    sudo ./bin/mysgwSecond -d
+    sudo ./bin/mysgwSecond
     
 installation
 
